@@ -1,3 +1,7 @@
+#PEQUEÑO DESPLIEGUE
+#El objetivo de este despliegue es mostrar un proyecto mínimo viable, 
+#en el cual se utiliza streamlit para mostrarle al usuario una interfaz final.
+
 import streamlit as st
 import torch
 import torchvision.transforms as transforms
