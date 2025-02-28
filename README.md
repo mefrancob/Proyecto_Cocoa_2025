@@ -1,4 +1,5 @@
-Proyecto, clasificador de estapas de maduración del cacao
+Proyecto, clasificador de etapas de maduración del cacao.
+
 Aquí se encuentran las carpetas del trabajo con todos los archivos que realizamos. Los archivos que usamos al final son: RedNeoronalVF, entrenamiento, despliegue y modelo_cacao_resnet50_finetuned_2
 
 El archivo RedNeoronalVF, contiene el preprocesamiento de las imágenes, aplicando los conocimientos adquiridos en la materia, también está la implementación de una red neuronal con Keras.
