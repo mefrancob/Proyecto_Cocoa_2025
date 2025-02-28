@@ -57,7 +57,7 @@ def predict_image(image):
     return class_names[predicted_class], probabilities.cpu().numpy()
 
 # Construcción de la interfaz en Streamlit
-st.title("Clasificador de imágenes de cacao")
+st.title("Clasificador de etapas de maduración de cacao")
 st.write("Sube una imagen y el modelo clasificará la fase de maduración.")
 
 uploaded_file = st.file_uploader("Sube una imagen...", type=["jpg", "png", "jpeg"])
