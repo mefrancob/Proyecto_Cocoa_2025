@@ -30,7 +30,7 @@ num_ftrs = model.fc.in_features
 model.fc = nn.Linear(num_ftrs, 4)
 
 # Cargar los pesos guardados
-model_path = "C:\\Users\\melis\\Desktop\\Proyecto_Cocoa\\Proyecto_Cocoa_2025\\Proyecto\\Pruebas\\modelo_cacao_resnet50_finetuned_1.pth"  # Asegúrate de que el archivo esté en la misma carpeta
+model_path = "C:\\Users\\melis\\Desktop\\Proyecto_Cocoa\\Proyecto_Cocoa_2025\\Proyecto\\Pruebas\\modelo_cacao_resnet50_finetuned_2.pth"  # Asegúrate de que el archivo esté en la misma carpeta
 model.load_state_dict(torch.load(model_path, map_location=device))
 
 # Enviar a GPU si está disponible
